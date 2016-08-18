@@ -1,4 +1,6 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+﻿<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" %>
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">                                   
@@ -11,12 +13,12 @@
         </div>
         <div class="navbar-collapse collapse">  
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value="/" />">Home</a></li>
-            <li><a href="<c:url value="/getstarted" />">Get started</a></li>
-            <li><a href="<c:url value="/errors-validations" />">Errors &amp; Validations</a></li>
-            <li><a href="<c:url value="/form" />">Forms</a></li>
-            <li><a href="<c:url value="/fileupload" />">File Upload</a></li>
-            <li><a href="<c:url value="/misc" />">Misc</a></li>
+            <li class="active"><a href="<c:url value="/" />">首页</a></li>
+            <li><a href="<c:url value="/getstarted" />">平台政策</a></li>
+            <li><a href="<c:url value="/errors-validations" />">数据运营</a></li>
+            <li><a href="<c:url value="/form" />">接口文档</a></li>
+            <li><a href="<c:url value="/fileupload" />">联系我们</a></li>
+            <li><a href="<c:url value="/misc" />">论坛</a></li>
           </ul>
         </div>   			      		 
   </div>
